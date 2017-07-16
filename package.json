@@ -1,0 +1,30 @@
+{
+  "name": "ops",
+  "version": "0.0.1",
+  "description": "Open Payment System",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "request": "^2.81.0",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
+    "unirest": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start client": "node main.js",
+    "start server": "node server.js"
+  },
+  "keywords": [
+    "open",
+    "opensource",
+    "payment",
+    "system"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dusansimic/ops.git"
+  },
+  "author": "Dušan Simić",
+  "license": "MIT"
+}
