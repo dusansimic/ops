@@ -2,18 +2,16 @@
   "name": "ops",
   "version": "0.0.1",
   "description": "Open Payment System",
-  "main": "main.js",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.15.3",
-    "request": "^2.81.0",
-    "socket.io": "^2.0.3",
-    "socket.io-client": "^2.0.3",
-    "unirest": "^0.5.1"
+    "mongodb": "^2.2.30",
+    "websocket": "^1.0.24"
   },
   "devDependencies": {},
   "scripts": {
-    "start client": "node main.js",
-    "start server": "node server.js"
+    "client": "node test.js",
+    "server": "node server.js"
   },
   "keywords": [
     "open",
